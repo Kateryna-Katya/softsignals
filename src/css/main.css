@@ -65,3 +65,24 @@
     width: 240px;
 }
 }
+/* About the Game */
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.about-text-wrapper{
+    display: flex;
+        flex-direction: column;
+        gap: 8px;
+}
+@media only screen and (min-width: 1440px) {
+.about-container{
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 60px;
+}
+.about-wrapper{
+    width: 528px;
+}
+}
