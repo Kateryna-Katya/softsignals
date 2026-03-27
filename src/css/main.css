@@ -211,3 +211,24 @@
     width: 528px;
   }
 }
+/* Gallery */
+.gallery-title{
+    text-align: center;
+}
+.gallery-img{
+width: 330px;
+    height: 430px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+@media only screen and (min-width: 1440px) {
+.gallery-img {
+width: 480px;
+    height: 574px;
+    padding-left: 0;
+    }
+.gallery-container{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+}
