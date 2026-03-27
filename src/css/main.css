@@ -187,3 +187,27 @@
     margin-bottom: 64px;
 }
 }
+/* Why Play Misty Garden */
+.why-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.why-title{
+    text-align: left;
+}
+.why-text-wrapper{
+    display: flex;
+        flex-direction: column;
+        gap: 8px;
+}
+@media only screen and (min-width: 1440px) {
+  .why-container{
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+  }
+  .why-wrapper{
+    width: 528px;
+  }
+}
