@@ -361,3 +361,42 @@ margin-top: -1px;
         display: none;
     }
 }
+/* Contact */
+.contact-container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+}
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 8px 8px 16px 0 rgba(167, 167, 167, 0.16);
+        background: #d6f0ff;
+        border-radius: 16px;
+            padding: 8px 0px 8px 16px;
+            width: 304px;
+            height: 61px;
+font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #192a4d;
+}
+@media only screen and (min-width: 1440px) {
+  .contact-container{
+    flex-direction: row;
+    justify-content: center;
+    gap: 64px;
+  }
+  .contact-wrapper{
+    align-items: start;
+  }
+}
